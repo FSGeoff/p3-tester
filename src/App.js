@@ -13,7 +13,7 @@ function App() {
 		<div className="App">
 			{teacherDirectory.map((teacher) => (
 				<Directory
-					id={teacher.id}
+					key={teacher.id}
 					image={teacher.image}
 					name={teacher.name}
 					education={teacher.education}

@@ -1,39 +1,39 @@
 [
 	{
 		"id": "01",
-		"img": "https://randomuser.me/api/portraits/thumb/women/89.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/women/89.jpg",
 		"name": "Sarah Collins",
 		"education": "Georgia State",
-		"subjects": ["Science"],
+		"subjects": ["Spelling, Science"],
 		"experience": "10 years"
 	},
 	{
 		"id": "02",
-		"img": "https://randomuser.me/api/portraits/thumb/women/77.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/women/77.jpg",
 		"name": "Peg Sanders",
 		"education": "Georgia Tech",
-		"subjects": ["Spelling", "Science", "Phonics"],
+		"subjects": ["Spelling, Math"],
 		"experience": "10 years"
 	},
 	{
 		"id": "03",
-		"img": "https://randomuser.me/api/portraits/thumb/women/249.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/women/79.jpg",
 		"name": "Emily Peters",
 		"education": "Georgia Southern",
-		"subjects": ["Math", "Spelling", "Science"],
+		"subjects": ["Math, Spelling, Science"],
 		"experience": "10 years"
 	},
 	{
 		"id": "04",
-		"img": "https://randomuser.me/api/portraits/thumb/women/185.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/women/85.jpg",
 		"name": "Diane Turner",
 		"education": "University of Georgia",
-		"subjects": ["Math", "Reading"],
+		"subjects": ["Math, Reading"],
 		"experience": "10 years"
 	},
 	{
 		"id": "05",
-		"img": "https://randomuser.me/api/portraits/thumb/men/25.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/men/25.jpg",
 		"name": "Tom Jones",
 		"education": "Savannah State University",
 		"subjects": ["Math"],
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": "06",
-		"img": "https://randomuser.me/api/portraits/thumb/men/75.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/men/75.jpg",
 		"name": "Alfred Owens",
 		"education": "Tennessee State University",
 		"subjects": ["Spelling", "Science"],
@@ -49,7 +49,7 @@
 	},
 	{
 		"id": "07",
-		"img": "https://randomuser.me/api/portraits/thumb/men/49.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/men/49.jpg",
 		"name": "Jim Simpson",
 		"education": "Norfolk State University",
 		"subjects": ["Math", "Science"],
@@ -57,7 +57,7 @@
 	},
 	{
 		"id": "08",
-		"img": "https://randomuser.me/api/portraits/thumb/men/19.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/men/19.jpg",
 		"name": "Hal Simmons",
 		"education": "NYU",
 		"subjects": ["Math", "Reading"],
@@ -65,15 +65,15 @@
 	},
 	{
 		"id": "09",
-		"img": "https://randomuser.me/api/portraits/thumb/men/89.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/men/89.jpg",
 		"name": "Leon Carter",
 		"education": "Hunter College",
-		"subjects": ["Science"],
+		"subjects": ["Science", "History"],
 		"experience": "10 years"
 	},
 	{
 		"id": "10",
-		"img": "https://randomuser.me/api/portraits/thumb/men/79.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/men/79.jpg",
 		"name": "Michael Smith",
 		"education": "Brooklyn College",
 		"subjects": ["Spelling", "Science", "Phonics"],
@@ -89,7 +89,7 @@
 	},
 	{
 		"id": "12",
-		"img": "https://randomuser.me/api/portraits/thumb/women/69.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/women/69.jpg",
 		"name": "Lisa Green",
 		"education": "Clemson University",
 		"subjects": ["Math", "Reading"],
@@ -97,15 +97,15 @@
 	},
 	{
 		"id": "13",
-		"img": "https://randomuser.me/api/portraits/thumb/men/129.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/men/19.jpg",
 		"name": "Tim Wayans",
 		"education": "Medgar Evers College",
-		"subjects": ["Math"],
+		"subjects": ["Math", "Phonics"],
 		"experience": "10 years"
 	},
 	{
 		"id": "14",
-		"img": "https://randomuser.me/api/portraits/thumb/women/75.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/women/75.jpg",
 		"name": "Diedra Tasher",
 		"education": "Ball State University",
 		"subjects": ["Spelling", "Science"],
@@ -113,18 +113,18 @@
 	},
 	{
 		"id": "15",
-		"img": "https://randomuser.me/api/portraits/thumb/men/45.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/men/45.jpg",
 		"name": "Brian Appleberry",
 		"education": "University of Pennsylvania",
-		"subjects": ["Math, Science"],
+		"subjects": ["Math", "Science"],
 		"experience": "10 years"
 	},
 	{
 		"id": "16",
-		"img": "https://randomuser.me/api/portraits/thumb/women/19.jpg",
+		"image": "https://randomuser.me/api/portraits/thumb/women/19.jpg",
 		"name": "Sheri Sharp",
 		"education": "City College",
-		"subjects": ["Math, Reading"],
+		"subjects": ["Math", "Reading","History"],
 		"experience": "10 years"
 	}
 ]

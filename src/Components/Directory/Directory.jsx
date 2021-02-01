@@ -3,7 +3,10 @@ import React from "react";
 const Directory = (teachers) => {
 	return (
 		<>
-			<div className="card">
+			<div
+				className="card"
+				style={{ border: "5px", padding: "5px", width: "30%" }}
+			>
 				<div className="card-image">
 					<figure className="image is-96x96">
 						<img src={teachers.image} alt={teachers.name} />
@@ -23,7 +26,9 @@ const Directory = (teachers) => {
 							{teachers.experience}
 							<br />
 							<strong>Subject(s):</strong>
-							{teachers.subject}
+							{teachers.subjects}
+							<br />
+							<button className="button is-info">Book</button>
 						</div>
 					</div>
 				</div>
