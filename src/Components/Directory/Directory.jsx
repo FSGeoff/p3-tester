@@ -1,11 +1,11 @@
 import React from "react";
+import "./Directory.css";
 
 const Directory = (teachers) => {
 	return (
 		<>
 			<div
 				className="card "
-				// TODO:cards need to stack horizontally, currently vertical
 				style={{
 					margin: "10px",
 					border: "5px",
@@ -39,7 +39,14 @@ const Directory = (teachers) => {
 							{teachers.subjects}
 							<br />
 							<br />
-							<button className="button is-small is-fullwidth is-info" style={{borderRadius:"10px", fontSize:"20px", fontWeight:"bold"}}>
+							<button
+								className="button is-small is-fullwidth is-info"
+								style={{
+									borderRadius: "10px",
+									fontSize: "20px",
+									fontWeight: "bold",
+								}}
+							>
 								{/* TODO: add onclick to prompt teacher schedule */}
 								Book Session
 							</button>
