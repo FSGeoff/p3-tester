@@ -4,11 +4,20 @@ const Directory = (teachers) => {
 	return (
 		<>
 			<div
-				className="card"
-				style={{ border: "5px", padding: "5px", width: "30%" }}
+                className="card "
+                // TODO:cards need to stack horizontally, currently vertical
+				style={{
+                    margin:"10px",
+					border: "5px",
+					padding: "5px",
+					width: "30%",
+					outline: "solid 1px black",
+					display: "inline-block",
+					flexDirection: "row",
+				}}
 			>
 				<div className="card-image">
-					<figure className="image is-96x96">
+					<figure className="image is-128x128">
 						<img src={teachers.image} alt={teachers.name} />
 					</figure>
 				</div>
@@ -28,7 +37,11 @@ const Directory = (teachers) => {
 							<strong>Subject(s):</strong>
 							{teachers.subjects}
 							<br />
-							<button className="button is-info">Book</button>
+							<br />
+							<button className="button is-small is-fullwidth is-info">
+                                {/* TODO: add onclick to prompt teacher schedule */}
+								Book Session
+							</button>
 						</div>
 					</div>
 				</div>
